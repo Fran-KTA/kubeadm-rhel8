@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>k8sworker</short>
+  <description>Kubernetes Worker node (kubeadm) necessary ports</description>
+  <port protocol="tcp" port="3000-32767"/> <!-- NodePort range -->
+  <port protocol="tcp" port="10250"/> <!-- Kubelet API -->
+</service>
