@@ -18,7 +18,7 @@ gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cl
 EOF
 
 echo "Installing kubectl, kubelet and kubeadm..."
-yum install -y kubectl[root@centos8 ~]# yum install -y kubectl kubeadm kubelet
+yum install -y kubectl kubeadm kubelet
 
 echo "Installing dnf plugin: versionlock..."
 yum install -y python3-dnf-plugin-versionlock.noarch
